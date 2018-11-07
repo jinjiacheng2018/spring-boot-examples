@@ -25,10 +25,12 @@
     </dependency>
     
 2.在application.properties配置文件中配置jsp的视图展示
+
     spring.mvc.view.prefix=/WEB-INF/views/
     spring.mvc.view.suffix=.jsp
     
 3.build中需要配置文件编译的信息(相当于把jsp页面打包进来)
+
     <!-- 配置编译目录，将文件编译到指定的目录下，就可以在运行入口类的时候访问jsp页面 -->
     <resources>
       <resource>
