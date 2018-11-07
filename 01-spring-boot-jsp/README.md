@@ -1,5 +1,6 @@
 ## SpringBoot整合JSP的步骤
 1.导入jsp的相关依赖，最好一起导入servet-api、jstl相关的依赖
+
     <!-- 引入SpringBoot内嵌的Tomcat对JSP的解析包 -->
     <dependency>
         <groupId>org.apache.tomcat.embed</groupId>
