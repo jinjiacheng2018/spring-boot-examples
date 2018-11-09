@@ -50,6 +50,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01-spring-boot-jsp/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02-spring-boot-mybatis/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StudentServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02-spring-boot-mybatis/src/main/java/com/tgram/sboot/service/impl/StudentServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
@@ -174,6 +183,10 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01-spring-boot-jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="02-spring-boot-mybatis" type="462c0819:PsiDirectoryNode" />
@@ -415,7 +428,7 @@
       <workItem from="1541589680823" duration="2546000" />
       <workItem from="1541592448047" duration="1513000" />
       <workItem from="1541639360436" duration="1070000" />
-      <workItem from="1541743722906" duration="5097000" />
+      <workItem from="1541743722906" duration="6010000" />
     </task>
     <task id="LOCAL-00001" summary="修改自述文件">
       <created>1541592685209</created>
@@ -466,7 +479,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10226000" />
+    <option name="totallyTimeSpent" value="11139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
@@ -490,7 +503,7 @@
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49932975" visible="true" weight="0.2503516" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49932975" visible="true" weight="0.20393811" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.2742616" />
       <window_info anchor="bottom" id="Run" order="10" weight="0.23174158" />
       <window_info anchor="bottom" id="Spring" order="1" weight="0.22081575" />
@@ -705,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-spring-boot-jsp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="53" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/322295c9-7f54-459a-b348-54e6ca7107de/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -751,13 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-spring-boot-mybatis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="78" column="44" lean-forward="true" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -824,6 +823,20 @@
             <element signature="e#429#430#0" expanded="true" />
             <element signature="e#456#457#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-spring-boot-mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="78" column="44" lean-forward="true" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-spring-boot-jsp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
