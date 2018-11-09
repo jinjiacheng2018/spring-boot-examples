@@ -21,10 +21,14 @@
     <option name="pathToConfigFileJava" value="E:/开发软件/tools/IntelliJ IDEA 2018/Intellij IDEA安装插件步骤/IDEA_plugin/CodeFormatter_v1.1.xml" />
     <option name="selectedJavaProfile" value="CodeFormatter" />
   </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/02-spring-boot-mybatis" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/01-spring-boot-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/02-spring-boot-mybatis/pom.xml" />
       </list>
     </option>
   </component>

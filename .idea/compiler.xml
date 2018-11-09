@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="01-spring-boot-jsp" />
+        <module name="02-spring-boot-mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="01-spring-boot-jsp" target="1.8" />
+      <module name="02-spring-boot-mybatis" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
