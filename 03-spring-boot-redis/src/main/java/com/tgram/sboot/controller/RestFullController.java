@@ -30,6 +30,9 @@ public class RestFullController
     @Resource
     private EmployeeService employeeService;
 
+    /**
+     * 注意：注意RedisTemplate对象只能写：RedisTemplate<Object, Object> 、 RedisTemplate<String, String>
+     */
     @Autowired
     private RedisTemplate<Object, Object> redisTemplate;
 
