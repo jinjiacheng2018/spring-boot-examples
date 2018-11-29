@@ -16,7 +16,7 @@ import com.tgram.sboot.entity.Employee;
 import com.tgram.sboot.service.EmployeeService;
 
 /**
- *<p> Description: RestFull风格的控制层 </p>
+ *<p> Description: RestFull请求风格的控制层 </p>
  *<p> Copyright: Copyright(c) 2018/11/28 </p>
  *<p> Company: 7qb </p>
  *
