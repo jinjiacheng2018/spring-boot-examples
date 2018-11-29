@@ -6,10 +6,7 @@ import javax.annotation.Resource;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.alibaba.fastjson.JSONObject;
 import com.tgram.sboot.core.Message;
@@ -33,6 +30,19 @@ public class RestFullController
 
     @Autowired
     private RedisTemplate<Object, Object> redisTemplate;
+
+    /**
+     * 测试Rest风格的方法
+     * @return
+     */
+    @RequestMapping("/restFullIndex/{empId}")
+    public Message restFullRequest(@PathVariable(value = "empId") Integer empId)
+    {
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("emp",employeeService.queryEmpById(empId));
+
+        return Message.data(jsonObject);
+    }
 
     /**
      * 测试Rest风格的方法1
