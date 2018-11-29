@@ -78,6 +78,7 @@ public class RestFullController
     @PostMapping(value = "/queryEmpWithRedis", produces = "application/json;charset=utf-8")
     public Message queryEmpWithRedis()
     {
+        // 自定义对象要存入缓存中必须实现Serializable接口，否则会报错
         List<Employee> emps = (List<Employee>)redisTemplate.opsForValue().get("emps");
 
         if (emps == null ){
