@@ -6,6 +6,8 @@ import javax.annotation.Resource;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.serializer.RedisSerializer;
+import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.web.bind.annotation.*;
 
 import com.alibaba.fastjson.JSONObject;
@@ -82,7 +84,7 @@ public class RestFullController
     }
 
     /**
-     * 通过Id查询雇员信息
+     * 通过Id查询雇员信息并使用Redis缓存(key会自动序列化)
      * @return Message
      */
     @PostMapping(value = "/queryEmpWithRedis", produces = "application/json;charset=utf-8")
@@ -95,6 +97,29 @@ public class RestFullController
             System.out.println("********************^_^********************");
             emps = employeeService.queryAllEmps();
             redisTemplate.opsForValue().set("emps",emps);
+        }
+
+        return Message.data(emps);
+    }
+
+    /**
+     * 通过Id查询雇员信息并使用Redis缓存(key自定序列化器)
+     * @return Message
+     */
+    @PostMapping(value = "/queryEmpWithRedisKeySerializable", produces = "application/json;charset=utf-8")
+    public Message queryEmpWithRedisKeySerializable()
+    {
+        // 自定义序列化器(字符串的序列化器)，并设置
+        RedisSerializer redisSerializer = new StringRedisSerializer();
+        redisTemplate.setKeySerializer(redisSerializer);
+
+        // 自定义对象要存入缓存中必须实现Serializable接口，否则会报错
+        List<Employee> emps = (List<Employee>)redisTemplate.opsForValue().get("allemps");
+
+        if (emps == null ){
+            System.err.println("********************^_^********************");
+            emps = employeeService.queryAllEmps();
+            redisTemplate.opsForValue().set("allemps",emps);
         }
 
         return Message.data(emps);
