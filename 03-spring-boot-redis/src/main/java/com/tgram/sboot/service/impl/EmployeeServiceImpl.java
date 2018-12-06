@@ -18,7 +18,7 @@ import java.util.List;
  *@author JinJiacheng
  *@Version 1.0 2018/11/28 17:14
  */
-@EnableScheduling
+//@EnableScheduling
 @Service(value = "employeeService")
 public class EmployeeServiceImpl implements EmployeeService {
 
@@ -36,7 +36,9 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     /**
-     * 定时任务：使用cron表示每隔5秒执行一次，注意使用@Scheduled定时任务的注解，需要在对应的Bean上添加@EnableScheduling注解
+     * 定时任务：使用cron表示每隔5秒执行一次，注意使用@Scheduled定时任务的注解，
+     *          需要在对应的Bean上添加@EnableScheduling注解或者在主启动类添加
+     *
      */
     @Scheduled(cron = "*/5 * * * * ?")
     public void autoScheduled(){
