@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1dfa1ae-8f50-4179-b2d6-88e10f9011f3" name="Default" comment="" />
+    <list default="true" id="c1dfa1ae-8f50-4179-b2d6-88e10f9011f3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/core/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/01-spring-boot-jsp/target/" />
     <ignored path="$PROJECT_DIR$/02-spring-boot-mybatis/target/" />
     <ignored path="$PROJECT_DIR$/03-spring-boot-redis/target/" />
@@ -56,7 +59,26 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/core/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/core/Entity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,6 +96,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>getLogger</find>
+      <find>jackson</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -150,7 +173,32 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="03-spring-boot-redis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="03-spring-boot-redis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-data-redis:2.1.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="03-spring-boot-redis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-web:2.1.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="03-spring-boot-redis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-web:2.1.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.boot:spring-boot-starter-json:2.1.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="03-spring-boot-redis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-test:2.1.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -171,7 +219,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
@@ -294,6 +341,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -821,6 +869,8 @@
       <workItem from="1544491741642" duration="1457000" />
       <workItem from="1545015559174" duration="669000" />
       <workItem from="1545103902969" duration="1784000" />
+      <workItem from="1545122288407" duration="784000" />
+      <workItem from="1545126449224" duration="361000" />
     </task>
     <task id="LOCAL-00001" summary="修改自述文件">
       <created>1541592685209</created>
@@ -991,15 +1041,16 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41974000" />
+    <option name="totallyTimeSpent" value="43119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="8" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="10" sideWeight="0.49865952" weight="0.33614627" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50268096" side_tool="true" weight="0.35734463" />
-      <window_info anchor="right" id="Maven Projects" order="0" weight="0.101876676" />
+      <window_info anchor="right" id="Maven Projects" order="0" weight="0.45040214" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="0" />
@@ -1009,17 +1060,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="13" weight="0.45007032" />
       <window_info anchor="bottom" id="TODO" order="16" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32911393" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.49731904" visible="true" weight="0.23066103" />
-      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.49865952" weight="0.2542373" />
       <window_info anchor="bottom" id="Run" order="1" weight="0.39662448" />
+      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.49865952" weight="0.2542373" />
       <window_info anchor="bottom" id="Spring" order="5" weight="0.22081575" />
       <window_info anchor="bottom" id="Terminal" order="6" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20911528" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23659517" />
       <window_info anchor="right" id="Bean Validation" order="7" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -1031,6 +1081,7 @@
       <window_info anchor="bottom" id="Database Console" order="17" weight="0.32911393" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.15616623" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32911393" />
       <window_info anchor="bottom" id="Find" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="9" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="11" />
@@ -1090,20 +1141,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01-spring-boot-jsp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2222">
-          <caret line="101" column="20" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="101" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-spring-boot-jsp/src/main/web/WEB-INF/views/success.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01-spring-boot-jsp/src/main/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1407,15 +1444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1430,9 +1458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
           <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1443,17 +1468,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/core/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="36" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar!/com/fasterxml/jackson/annotation/JsonInclude.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="49" column="35" lean-forward="true" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/core/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/core/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
