@@ -29,6 +29,7 @@
       <list>
         <option value="$PROJECT_DIR$/01-spring-boot-jsp/pom.xml" />
         <option value="$PROJECT_DIR$/02-spring-boot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/03-spring-boot-redis/pom.xml" />
       </list>
     </option>
   </component>
