@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1dfa1ae-8f50-4179-b2d6-88e10f9011f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/core/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/01-spring-boot-jsp/target/" />
@@ -72,8 +71,17 @@
       <file leaf-file-name="Entity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/core/Entity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="308">
+              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/entity/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -146,7 +154,6 @@
         <option value="$PROJECT_DIR$/03-spring-boot-redis/src/test/java/com/tgram/sboot/DataSourceTest.java" />
         <option value="$PROJECT_DIR$/03-spring-boot-redis/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/03-spring-boot-redis/src/test/java/com/tgram/sboot/SpringBootRedisTests.java" />
-        <option value="$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/entity/Employee.java" />
         <option value="$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/controller/RedisController.java" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" />
         <option value="$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/controller/RestFullController.java" />
@@ -154,6 +161,7 @@
         <option value="$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/SpringBootRedisApplication.java" />
         <option value="$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/service/impl/EmployeeServiceImpl.java" />
         <option value="$PROJECT_DIR$/03-spring-boot-redis/src/test/java/com/tgram/sboot/DemoTest.java" />
+        <option value="$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/entity/Employee.java" />
       </list>
     </option>
   </component>
@@ -723,55 +731,9 @@
     </option>
     <option name="contentProportion" value="0.13347022" />
   </component>
-  <component name="RunManager" selected="JUnit.DemoTest.test_02">
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="DemoTest.test_01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="03-spring-boot-redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tgram.sboot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.tgram.sboot" />
-      <option name="MAIN_CLASS_NAME" value="com.tgram.sboot.DemoTest" />
-      <option name="METHOD_NAME" value="test_01" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DemoTest.test_02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="03-spring-boot-redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tgram.sboot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.tgram.sboot" />
-      <option name="MAIN_CLASS_NAME" value="com.tgram.sboot.DemoTest" />
-      <option name="METHOD_NAME" value="test_02" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -788,23 +750,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="SpringBootJspApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="01-spring-boot-jsp" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tgram.sboot.SpringBootJspApplication" />
-    </configuration>
-    <configuration name="SpringBootRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="03-spring-boot-redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tgram.sboot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tgram.sboot.SpringBootRedisApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -828,17 +773,8 @@
       <properties />
       <listeners />
     </configuration>
-    <list>
-      <item itemvalue="Spring Boot.SpringBootJspApplication" />
-      <item itemvalue="Spring Boot.SpringBootRedisApplication" />
-      <item itemvalue="JUnit.DemoTest.test_01" />
-      <item itemvalue="JUnit.DemoTest.test_02" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SpringBootRedisApplication" />
-        <item itemvalue="JUnit.DemoTest.test_02" />
-        <item itemvalue="JUnit.DemoTest.test_01" />
         <item itemvalue="Spring Boot.SpringBootRedisApplication" />
         <item itemvalue="Spring Boot.SpringBootRedisApplication" />
       </list>
@@ -870,7 +806,7 @@
       <workItem from="1545015559174" duration="669000" />
       <workItem from="1545103902969" duration="1784000" />
       <workItem from="1545122288407" duration="784000" />
-      <workItem from="1545126449224" duration="361000" />
+      <workItem from="1545126449224" duration="1082000" />
     </task>
     <task id="LOCAL-00001" summary="修改自述文件">
       <created>1541592685209</created>
@@ -1005,7 +941,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544148329025</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="添加Entity类用于分页">
+      <created>1545126868689</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1545126868689</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1041,7 +984,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43119000" />
+    <option name="totallyTimeSpent" value="43840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -1064,7 +1007,7 @@
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.49731904" visible="true" weight="0.23066103" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.49731904" weight="0.23066103" />
       <window_info anchor="bottom" id="Run" order="1" weight="0.39662448" />
       <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.49865952" weight="0.2542373" />
       <window_info anchor="bottom" id="Spring" order="5" weight="0.22081575" />
@@ -1133,7 +1076,8 @@
     <MESSAGE value="测试分支合并" />
     <MESSAGE value="定时任务测试" />
     <MESSAGE value="删除导入的无用的包" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除导入的无用的包" />
+    <MESSAGE value="添加Entity类用于分页" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加Entity类用于分页" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1374,13 +1318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/entity/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1489,10 +1426,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/entity/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/core/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="308">
+          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
         </state>
       </provider>
     </entry>
