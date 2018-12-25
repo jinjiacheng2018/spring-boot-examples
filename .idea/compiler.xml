@@ -9,12 +9,14 @@
         <module name="01-spring-boot-jsp" />
         <module name="02-spring-boot-mybatis" />
         <module name="03-spring-boot-redis" />
+        <module name="04-spring-boot-druid" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="01-spring-boot-jsp" target="1.8" />
       <module name="02-spring-boot-mybatis" target="8" />
       <module name="03-spring-boot-redis" target="1.8" />
+      <module name="04-spring-boot-druid" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
