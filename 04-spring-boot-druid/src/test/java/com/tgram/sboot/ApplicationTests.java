@@ -1,25 +1,25 @@
 package com.tgram.sboot;
 
-import com.alibaba.druid.pool.DruidDataSource;
-import com.tgram.sboot.entity.Employee;
-import com.tgram.sboot.util.MyDateUtil;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.core.env.Environment;
-import org.springframework.test.context.junit4.SpringRunner;
-
-import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.time.LocalDate;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
 import java.util.*;
 import java.util.stream.Collectors;
+
+import javax.sql.DataSource;
+
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.core.env.Environment;
+
+import com.alibaba.druid.pool.DruidDataSource;
+import com.tgram.sboot.entity.Employee;
+import com.tgram.sboot.lambda.MyLambadFunc;
+import com.tgram.sboot.util.MyDateUtil;
+import com.tgram.sboot.util.StringFuncUtil;
 
 // @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -259,5 +259,15 @@ public class ApplicationTests
         {
             System.out.println(emp);
         }
+    }
+
+    /**
+     * 使用Lambda表达式实现函数式接口表达式
+     */
+    @Test
+    public void testJdk8Lambda(){
+        String string = "lambda add power to Java";
+        String string1 = MyLambadFunc.resverseStringFunc(StringFuncUtil::reverseString,string);
+        System.out.println(string1);
     }
 }
