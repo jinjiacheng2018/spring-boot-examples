@@ -14,6 +14,9 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.time.LocalDate;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
@@ -116,6 +119,30 @@ public class ApplicationTests
         // 六个(或三个)参数设置日期
         calendar.set(2019,0,1,14,14,14);
         System.out.println(MyDateUtil.dateFormate(calendar.getTime(),"yyyy-MM-dd HH:mm:ss E"));
+    }
+
+    /**
+     * JDK8的日期类
+     */
+    @Test
+    public void testDate3(){
+        LocalDate localDate1 = LocalDate.now();
+        System.out.println(localDate1);
+
+        LocalDate localDate2 = LocalDate.of(2019,1,1);
+        System.out.println(localDate2);
+
+        // LocalDate转成Date
+        Date date1 = MyDateUtil.localDateToDate(localDate1);
+        Date date2 = MyDateUtil.localDateToDate(localDate2);
+
+        System.out.println(MyDateUtil.dateFormate(date1,"yyyy-MM-dd HH:mm:ss E"));
+        System.out.println(MyDateUtil.dateFormate(date2,"yyyy-MM-dd HH:mm:ss E"));
+
+        // Date转成LocalDate
+        Date date = new Date();
+        LocalDate localDate = MyDateUtil.dateToLocalDate(date);
+        System.out.println(localDate1);
     }
 
     /**

@@ -2,6 +2,10 @@ package com.tgram.sboot.util;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -68,5 +72,41 @@ public class MyDateUtil {
         calendar.setTime(date);
         calendar.add(Calendar.DAY_OF_MONTH, days);
         return calendar.getTime();
+    }
+
+    /**
+     * 将LocalDate日期转化成Date
+     * @param localDate LocalDate对象
+     * @return Date对象
+     */
+    public static Date localDateToDate(LocalDate localDate)
+    {
+        if (localDate == null)
+        {
+            return null;
+        }
+        ZoneId zoneId = ZoneId.systemDefault();
+        ZonedDateTime zonedDateTime = localDate.atStartOfDay(zoneId);
+        Date date = Date.from(zonedDateTime.toInstant());
+
+        return date;
+    }
+
+    /**
+     * 将Date转成LocalDate对象
+     * @param date Date对象
+     * @return LocalDate对象
+     */
+    public static LocalDate dateToLocalDate(Date date)
+    {
+        if (date == null)
+        {
+            return null;
+        }
+        ZoneId zoneId = ZoneId.systemDefault();
+        Instant instant = date.toInstant();
+        LocalDate localDate = instant.atZone(zoneId).toLocalDate();
+
+        return localDate;
     }
 }
