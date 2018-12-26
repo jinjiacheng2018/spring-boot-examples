@@ -20,7 +20,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@RunWith(SpringRunner.class)
+//@RunWith(SpringRunner.class)
 @SpringBootTest
 public class ApplicationTests
 {
@@ -103,6 +103,19 @@ public class ApplicationTests
         calendar.setTime(date);
         calendar.add(Calendar.DAY_OF_MONTH,30);
         System.out.println(calendar.getTime() + " <*> " + MyDateUtil.dateFormate(calendar.getTime(),"yyyy-MM-dd"));
+    }
+
+    /**
+     * 测试日历类
+     */
+    @Test
+    public void testDate2(){
+        Calendar calendar = Calendar.getInstance();
+        System.out.println(MyDateUtil.dateFormate(calendar.getTime(),"yyyy-MM-dd HH:mm:ss E"));
+
+        // 六个(或三个)参数设置日期
+        calendar.set(2019,0,1,14,14,14);
+        System.out.println(MyDateUtil.dateFormate(calendar.getTime(),"yyyy-MM-dd HH:mm:ss E"));
     }
 
     /**
