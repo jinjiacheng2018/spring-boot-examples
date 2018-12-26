@@ -260,14 +260,26 @@ public class ApplicationTests
             System.out.println(emp);
         }
     }
-
+    
     /**
      * 使用Lambda表达式实现函数式接口表达式
      */
     @Test
-    public void testJdk8Lambda(){
+    public void testJdk8Lambda()
+    {
         String string = "lambda add power to Java";
-        String string1 = MyLambadFunc.resverseStringFunc(StringFuncUtil::reverseString,string);
+        String string1 = MyLambadFunc.resverseStringFunc(StringFuncUtil::reverseString, string);
         System.out.println(string1);
+    }
+    
+    /**
+     * 使用Lambda表达式实现函数式接口表达式
+     */
+    @Test
+    public void testJdk8Lambda2()
+    {
+        int num1 = 9;
+        int num2 = 9;
+        MyLambadFunc.printTable(StringFuncUtil::printMuliTable,num1);
     }
 }

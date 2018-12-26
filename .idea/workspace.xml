@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1dfa1ae-8f50-4179-b2d6-88e10f9011f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/func/StringFunc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/lambda/MyLambadFunc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/util/StringFuncUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/func/LambdaFunc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/lambda/MyLambadFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/lambda/MyLambadFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/util/StringFuncUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/util/StringFuncUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/04-spring-boot-druid/src/test/java/com/tgram/sboot/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-spring-boot-druid/src/test/java/com/tgram/sboot/ApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/01-spring-boot-jsp/target/" />
@@ -77,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringFunc.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringFunc.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/func/StringFunc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="336">
+              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -89,11 +89,14 @@
       <file leaf-file-name="MyLambadFunc.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/lambda/MyLambadFunc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+            <state relative-caret-position="113">
+              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#473#474#0" expanded="true" />
                 <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,8 +105,8 @@
       <file leaf-file-name="StringFuncUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/util/StringFuncUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+            <state relative-caret-position="91">
+              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -111,17 +114,26 @@
       <file leaf-file-name="ApplicationTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/test/java/com/tgram/sboot/ApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="269" column="71" selection-start-line="269" selection-start-column="71" selection-end-line="269" selection-end-column="71" />
+            <state relative-caret-position="138">
+              <caret line="282" column="28" selection-start-line="282" selection-start-column="28" selection-end-line="282" selection-end-column="28" />
               <folding>
                 <element signature="e#1070#1080#0" expanded="true" />
                 <element signature="e#2652#2653#0" expanded="true" />
                 <element signature="e#2750#2751#0" expanded="true" />
                 <element signature="e#2829#2830#0" expanded="true" />
                 <element signature="e#2880#2881#0" expanded="true" />
-                <element signature="e#6213#6214#0" expanded="true" />
-                <element signature="e#6292#6293#0" expanded="true" />
+                <element signature="e#6152#6153#0" expanded="true" />
+                <element signature="e#6231#6232#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LambdaFunc.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/func/LambdaFunc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -132,9 +144,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
-        <option value="Interface" />
         <option value="mybatis-mapper" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -210,9 +222,11 @@
         <option value="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/util/MyDateUtil.java" />
         <option value="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/entity/Employee.java" />
         <option value="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/util/StringUtil.java" />
-        <option value="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/lambda/MyLambadFunc.java" />
-        <option value="$PROJECT_DIR$/04-spring-boot-druid/src/test/java/com/tgram/sboot/ApplicationTests.java" />
         <option value="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/func/StringFunc.java" />
+        <option value="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/util/StringFuncUtil.java" />
+        <option value="$PROJECT_DIR$/04-spring-boot-druid/src/test/java/com/tgram/sboot/ApplicationTests.java" />
+        <option value="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/lambda/MyLambadFunc.java" />
+        <option value="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/func/LambdaFunc.java" />
       </list>
     </option>
   </component>
@@ -742,7 +756,7 @@
     </option>
     <option name="contentProportion" value="0.13347022" />
   </component>
-  <component name="RunManager" selected="JUnit.ApplicationTests.testJdk8Lambda">
+  <component name="RunManager" selected="JUnit.ApplicationTests.testJdk8Lambda2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -769,7 +783,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ApplicationTests.testJdk8_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApplicationTests.testJdk8Lambda2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="04-spring-boot-druid" />
       <extension name="coverage">
         <pattern>
@@ -781,7 +795,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.tgram.sboot" />
       <option name="MAIN_CLASS_NAME" value="com.tgram.sboot.ApplicationTests" />
-      <option name="METHOD_NAME" value="testJdk8_1" />
+      <option name="METHOD_NAME" value="testJdk8Lambda2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -905,19 +919,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.DruidApplication" />
-      <item itemvalue="JUnit.ApplicationTests.testJdk8_1" />
       <item itemvalue="JUnit.ApplicationTests.testJdk8_2" />
       <item itemvalue="JUnit.ApplicationTests.testJdk8_3" />
       <item itemvalue="JUnit.ApplicationTests.testJdk8_4" />
       <item itemvalue="JUnit.ApplicationTests.testJdk8Lambda" />
+      <item itemvalue="JUnit.ApplicationTests.testJdk8Lambda2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApplicationTests.testJdk8Lambda2" />
         <item itemvalue="JUnit.ApplicationTests.testJdk8Lambda" />
         <item itemvalue="JUnit.ApplicationTests.testJdk8_4" />
         <item itemvalue="JUnit.ApplicationTests.testJdk8_2" />
         <item itemvalue="JUnit.ApplicationTests.testJdk8_3" />
-        <item itemvalue="JUnit.ApplicationTests.testJdk8_1" />
       </list>
     </recent_temporary>
   </component>
@@ -950,7 +964,7 @@
       <workItem from="1545126449224" duration="1082000" />
       <workItem from="1545642974231" duration="2251000" />
       <workItem from="1545720060453" duration="5512000" />
-      <workItem from="1545789234922" duration="18111000" />
+      <workItem from="1545789234922" duration="19622000" />
     </task>
     <task id="LOCAL-00001" summary="修改自述文件">
       <created>1541592685209</created>
@@ -1113,31 +1127,17 @@
       <option name="project" value="LOCAL" />
       <updated>1545816884315</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="函数式接口">
+      <created>1545822093549</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1545822093549</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApplicationTests_testJdk8_1 - 2018.12.26 at 17h 22m 37s.xml">
-      <configuration name="ApplicationTests.testJdk8_1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTests_testJdk8_1 - 2018.12.26 at 17h 22m 53s.xml">
-      <configuration name="ApplicationTests.testJdk8_1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTests_testJdk8_1 - 2018.12.26 at 17h 24m 16s.xml">
-      <configuration name="ApplicationTests.testJdk8_1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTests_testJdk8_2 - 2018.12.26 at 17h 26m 37s.xml">
-      <configuration name="ApplicationTests.testJdk8_2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTests_testJdk8_3 - 2018.12.26 at 17h 32m 28s.xml">
-      <configuration name="ApplicationTests.testJdk8_3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTests_testJdk8_2 - 2018.12.26 at 17h 32m 35s.xml">
-      <configuration name="ApplicationTests.testJdk8_2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTests_testJdk8_4 - 2018.12.26 at 17h 33m 47s.xml">
-      <configuration name="ApplicationTests.testJdk8_4" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ApplicationTests_testJdk8Lambda - 2018.12.26 at 17h 50m 35s.xml">
       <configuration name="ApplicationTests.testJdk8Lambda" configurationId="JUnit" />
     </history-entry>
@@ -1147,9 +1147,30 @@
     <history-entry file="ApplicationTests_testJdk8Lambda - 2018.12.26 at 17h 58m 54s.xml">
       <configuration name="ApplicationTests.testJdk8Lambda" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ApplicationTests_testJdk8Lambda2 - 2018.12.26 at 19h 19m 57s.xml">
+      <configuration name="ApplicationTests.testJdk8Lambda2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_testJdk8Lambda2 - 2018.12.26 at 19h 21m 48s.xml">
+      <configuration name="ApplicationTests.testJdk8Lambda2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_testJdk8Lambda2 - 2018.12.26 at 19h 22m 11s.xml">
+      <configuration name="ApplicationTests.testJdk8Lambda2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_testJdk8Lambda2 - 2018.12.26 at 19h 22m 42s.xml">
+      <configuration name="ApplicationTests.testJdk8Lambda2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_testJdk8Lambda2 - 2018.12.26 at 19h 23m 52s.xml">
+      <configuration name="ApplicationTests.testJdk8Lambda2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_testJdk8Lambda2 - 2018.12.26 at 19h 24m 45s.xml">
+      <configuration name="ApplicationTests.testJdk8Lambda2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_testJdk8Lambda2 - 2018.12.26 at 19h 25m 23s.xml">
+      <configuration name="ApplicationTests.testJdk8Lambda2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69714000" />
+    <option name="totallyTimeSpent" value="71225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -1166,7 +1187,7 @@
       <window_info anchor="right" id="Structure" order="2" side_tool="true" weight="0.12801608" />
       <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="13" sideWeight="0.49798927" visible="true" weight="0.27144867" />
+      <window_info active="true" anchor="bottom" id="Debug" order="13" sideWeight="0.49798927" visible="true" weight="0.54571027" />
       <window_info anchor="bottom" id="TODO" order="16" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32911393" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
@@ -1245,7 +1266,8 @@
     <MESSAGE value="配置类配置数据源DruidDatasource" />
     <MESSAGE value="JDK8的日期" />
     <MESSAGE value="JDK8的Lambda表达式为数组排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="JDK8的Lambda表达式为数组排序" />
+    <MESSAGE value="函数式接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="函数式接口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1253,13 +1275,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/02-spring-boot-mybatis/src/main/java/com/tgram/sboot/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02-spring-boot-mybatis/src/main/java/com/tgram/sboot/controller/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1581,44 +1596,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/func/StringFunc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/util/StringFuncUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/test/java/com/tgram/sboot/ApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="269" column="71" selection-start-line="269" selection-start-column="71" selection-end-line="269" selection-end-column="71" />
+        <state relative-caret-position="138">
+          <caret line="282" column="28" selection-start-line="282" selection-start-column="28" selection-end-line="282" selection-end-column="28" />
           <folding>
             <element signature="e#1070#1080#0" expanded="true" />
             <element signature="e#2652#2653#0" expanded="true" />
             <element signature="e#2750#2751#0" expanded="true" />
             <element signature="e#2829#2830#0" expanded="true" />
             <element signature="e#2880#2881#0" expanded="true" />
-            <element signature="e#6213#6214#0" expanded="true" />
-            <element signature="e#6292#6293#0" expanded="true" />
+            <element signature="e#6152#6153#0" expanded="true" />
+            <element signature="e#6231#6232#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/lambda/MyLambadFunc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        <state relative-caret-position="113">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#473#474#0" expanded="true" />
             <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/util/StringFuncUtil.java">
+    <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/func/LambdaFunc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/func/StringFunc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="229">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
