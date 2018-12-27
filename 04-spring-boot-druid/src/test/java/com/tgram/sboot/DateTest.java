@@ -24,12 +24,12 @@ public class DateTest {
     @Test
     public void testBetweenDays(){
         // 日期字符串
-        String dateStr1 = "2018-12-27";
-        String dateStr2 = "2018-12-31";
+        String dateStr1 = "2018-12-27 17:07:07";
+        String dateStr2 = "2018-12-31 00:00:00";
 
         // 获取日期
-        Date date1 = MyDateUtil.parseDate(dateStr1, "yyyy-MM-dd");
-        Date date2 = MyDateUtil.parseDate(dateStr2, "yyyy-MM-dd");
+        Date date1 = MyDateUtil.parseDate(dateStr1, "yyyy-MM-dd HH:mm:ss");
+        Date date2 = MyDateUtil.parseDate(dateStr2, "yyyy-MM-dd HH:mm:ss");
 
         // 获取相差的天数
         Calendar calendar = Calendar.getInstance();
@@ -38,7 +38,7 @@ public class DateTest {
         calendar.setTime(date2);
         long timeInMillis2 = calendar.getTimeInMillis();
 
-       long betweenDays =  (timeInMillis2 - timeInMillis1) / (100L*3600L*24L);
+       long betweenDays =  (timeInMillis2 - timeInMillis1) / (1000L*3600L*24L);
         System.out.println(betweenDays);
     }
 
@@ -55,11 +55,7 @@ public class DateTest {
         Date date1 = MyDateUtil.parseDate(dateStr1, "yyyy-MM-dd HH:mm:ss");
         Date date2 = MyDateUtil.parseDate(dateStr2, "yyyy-MM-dd HH:mm:ss");
 
-        System.out.println(MyDateUtil.dateFormate(date1,"yyyy-MM-dd HH:mm:ss"));
-        System.out.println(MyDateUtil.dateFormate(date2,"yyyy-MM-dd HH:mm:ss"));
-
-        // 1s = 1000ms
-        long betweenDays = (date2.getTime() - date1.getTime()) / (1000*3600*24);
+        long betweenDays = (date2.getTime() - date1.getTime()) / (1000L*3600L*24L);
         System.out.println(betweenDays);
     }
 

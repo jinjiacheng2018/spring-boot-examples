@@ -96,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/test/java/com/tgram/sboot/DateTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="212">
-              <caret line="40" column="76" selection-start-line="40" selection-start-column="76" selection-end-line="40" selection-end-column="76" />
+              <caret line="61" column="82" selection-start-line="61" selection-start-column="82" selection-end-line="61" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -896,7 +896,7 @@
       <workItem from="1545642974231" duration="2251000" />
       <workItem from="1545720060453" duration="5512000" />
       <workItem from="1545789234922" duration="20329000" />
-      <workItem from="1545880768388" duration="12263000" />
+      <workItem from="1545880768388" duration="12321000" />
     </task>
     <task id="LOCAL-00001" summary="修改自述文件">
       <created>1541592685209</created>
@@ -1101,16 +1101,17 @@
       <option name="project" value="LOCAL" />
       <updated>1545901860247</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Java计算两个日期相差的天数">
+      <created>1545902095130</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1545902095130</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DateTest_testBetweenDays - 2018.12.27 at 16h 58m 40s.xml">
-      <configuration name="DateTest.testBetweenDays" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateTest_testBetweenDays - 2018.12.27 at 16h 58m 52s.xml">
-      <configuration name="DateTest.testBetweenDays" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DateTest_testBetweenDays2 - 2018.12.27 at 17h 05m 27s.xml">
       <configuration name="DateTest.testBetweenDays2" configurationId="JUnit" />
     </history-entry>
@@ -1135,9 +1136,15 @@
     <history-entry file="DateTest_testBetweenDays2 - 2018.12.27 at 17h 10m 12s.xml">
       <configuration name="DateTest.testBetweenDays2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DateTest_testBetweenDays - 2018.12.27 at 17h 15m 19s.xml">
+      <configuration name="DateTest.testBetweenDays" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest_testBetweenDays - 2018.12.27 at 17h 15m 32s.xml">
+      <configuration name="DateTest.testBetweenDays" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84195000" />
+    <option name="totallyTimeSpent" value="84253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -1606,7 +1613,7 @@
     <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/test/java/com/tgram/sboot/DateTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
-          <caret line="40" column="76" selection-start-line="40" selection-start-column="76" selection-end-line="40" selection-end-column="76" />
+          <caret line="61" column="82" selection-start-line="61" selection-start-column="82" selection-end-line="61" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1692,7 +1699,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
