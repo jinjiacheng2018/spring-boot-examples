@@ -1,21 +1,21 @@
 package com.tgram.sboot.controller;
 
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
-import com.tgram.sboot.entity.Student;
-import com.tgram.sboot.service.StudentService;
-import com.tgram.sboot.uitl.ExportExcelUtil;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-import javax.annotation.Resource;
-import javax.servlet.ServletOutputStream;
-import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.alibaba.fastjson.JSONObject;
+import com.tgram.sboot.entity.Student;
+import com.tgram.sboot.service.StudentService;
+import com.tgram.sboot.uitl.ExportExcelUtil;
 
 /**
  *<p> Description: 控制层 </p>
@@ -48,8 +48,9 @@ public class StudentController
     @RequestMapping("/allStudsExportExcle")
     public void allStudsExportExcle(HttpServletResponse response) throws IOException
     {
-        // 设置请求头信息
-        response.setHeader("Content-disposition", "attachment; filename=student.xls");
+        // 设置请求头信息(使用String防止文件名中文乱码)
+        response.setHeader("Content-Disposition","attachment;filename=" + new String("学生信息表.xls".getBytes(),"ISO-8859-1"));
+        // response.setHeader("Content-disposition", "attachment; filename=student.xls");
         
         // 获取输入流信息
         OutputStream outputStream = response.getOutputStream();
@@ -70,7 +71,7 @@ public class StudentController
         });
 
         // 调用工具类到处Excel表格
-        ExportExcelUtil.exportExcel(dataList,outputStream,true);
+        ExportExcelUtil.exportExcel(dataList,outputStream,false);
 
         // 刷新输出流
         outputStream.flush();
