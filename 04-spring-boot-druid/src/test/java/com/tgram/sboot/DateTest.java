@@ -38,7 +38,7 @@ public class DateTest {
         calendar.setTime(date2);
         long timeInMillis2 = calendar.getTimeInMillis();
 
-       long betweenDays =  (timeInMillis2 - timeInMillis1) / (1001*36001*241);
+       long betweenDays =  (timeInMillis2 - timeInMillis1) / (100L*3600L*24L);
         System.out.println(betweenDays);
     }
 
