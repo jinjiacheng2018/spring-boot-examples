@@ -20,6 +20,7 @@ import com.tgram.sboot.entity.Employee;
 import com.tgram.sboot.lambda.MyLambadFunc;
 import com.tgram.sboot.util.MyDateUtil;
 import com.tgram.sboot.util.StringFuncUtil;
+import org.springframework.util.CollectionUtils;
 
 // @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -281,5 +282,15 @@ public class ApplicationTests
         int num1 = 9;
         int num2 = 9;
         MyLambadFunc.printTable(StringFuncUtil::printMuliTable,num1);
+    }
+
+    /**
+     * 使用集合工具类
+     */
+    @Test
+    public void testListIsEmpty(){
+        List<String> list = Arrays.asList("Tom","Jack","Bob","Mary");
+        boolean isEmpty = CollectionUtils.isEmpty(list);
+        System.out.println(isEmpty);
     }
 }
