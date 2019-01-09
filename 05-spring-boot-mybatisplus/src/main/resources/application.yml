@@ -1,0 +1,10 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: spring-boot-mybatis-plus
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://118.31.7.33:3306/mydatabase
+    username: root
+    password: root
