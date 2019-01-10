@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
 
-@RunWith(SpringRunner.class)
+//@RunWith(SpringRunner.class)
 @SpringBootTest
 public class ApplicationTests
 {
@@ -28,5 +28,31 @@ public class ApplicationTests
         List<User> users = userMapper.selectList(null);
         users.forEach(System.err::println);
     }
-    
+
+    /**
+     * 获取对象的类型
+     * @param o 对象
+     * @return 类型字符串
+     */
+    public String getType(Object o)
+    {
+        return o.getClass().toString();
+    }
+
+    /**
+     * 测试获取对象的类型
+     */
+    @Test
+    public void test2(){
+        User user = new User(1,"Tom",20,"tom@qq.com");
+        Integer num = 0;
+        System.out.println(getType(user));
+    }
+
+    @Test
+    public void test3(){
+        short s1 = 1;
+        // s1 = s1 + 1; //报错，类型转换有问题
+        s1 += 1; //等价于：s1 = (short)(s1 + 1);所以不报错
+    }
 }
