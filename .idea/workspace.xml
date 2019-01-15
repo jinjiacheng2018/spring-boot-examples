@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1dfa1ae-8f50-4179-b2d6-88e10f9011f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/util/ScheduldUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/DruidApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/DruidApplication.java" afterDir="false" />
-    </list>
+    <list default="true" id="c1dfa1ae-8f50-4179-b2d6-88e10f9011f3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/01-spring-boot-jsp/target/" />
     <ignored path="$PROJECT_DIR$/02-spring-boot-mybatis/target/" />
     <ignored path="$PROJECT_DIR$/03-spring-boot-redis/target/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <ignored path="$PROJECT_DIR$/04-spring-boot-druid/target/" />
+    <ignored path="$PROJECT_DIR$/05-spring-boot-mybatisplus/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +52,7 @@
         <item name="mydatabase@118.31.7.33" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="mydatabase: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="employee: table" type="98d5ac3d:MysqlImplModel$Table" />
+        <item name="user: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -82,22 +79,57 @@
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spring-boot-examples" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/test/java/com/tgram/sboot/ApplicationTests.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-spring-boot-mybatisplus/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5588">
-              <caret line="282" column="28" selection-start-line="282" selection-start-column="28" selection-end-line="282" selection-end-column="28" />
+            <state relative-caret-position="375">
+              <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DateTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/test/java/com/tgram/sboot/DateTest.java">
+      <file leaf-file-name="ApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-spring-boot-mybatisplus/src/test/java/com/tgram/sboot/ApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+            <state relative-caret-position="361">
+              <caret line="83" column="1" lean-forward="true" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConvertSpellUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/java/com/tgram/sboot/util/ConvertSpellUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4422">
+              <caret line="201" column="18" selection-start-line="201" selection-start-column="18" selection-end-line="201" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#694#702#0" expanded="true" />
+                <element signature="e#926#934#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/java/com/tgram/sboot/mapper/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/java/com/tgram/sboot/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,37 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DruidApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/DruidApplication.java">
+      <file leaf-file-name="MyBatisPlusApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/java/com/tgram/sboot/MyBatisPlusApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScheduldUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/util/ScheduldUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyDateUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/util/MyDateUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2288">
-              <caret line="111" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -178,17 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/02-spring-boot-mybatis/src/main/java/com/tgram/sboot/dao/StudentDao.java" />
-        <option value="$PROJECT_DIR$/02-spring-boot-mybatis/src/main/java/com/tgram/sboot/entity/Student.java" />
-        <option value="$PROJECT_DIR$/02-spring-boot-mybatis/src/main/resources/mapper/StudentMapper.xml" />
-        <option value="$PROJECT_DIR$/02-spring-boot-mybatis/src/main/java/com/tgram/sboot/service/StudentService.java" />
-        <option value="$PROJECT_DIR$/02-spring-boot-mybatis/src/test/java/com/tgram/sboot/test/StudentTest.java" />
-        <option value="$PROJECT_DIR$/02-spring-boot-mybatis/src/main/java/com/tgram/sboot/SpringBootMybatisApplication.java" />
-        <option value="$PROJECT_DIR$/02-spring-boot-mybatis/README.md" />
-        <option value="$PROJECT_DIR$/02-spring-boot-mybatis/src/main/java/com/tgram/sboot/service/impl/StudentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/02-spring-boot-mybatis/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/01-spring-boot-jsp/src/main/java/com/tgram/sboot/Application.java" />
-        <option value="$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/Application.java" />
         <option value="$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/core/Message.java" />
         <option value="$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/core/SpringUtil.java" />
         <option value="$PROJECT_DIR$/03-spring-boot-redis/pom.xml" />
@@ -218,7 +213,6 @@
         <option value="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/util/StringUtil.java" />
         <option value="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/func/StringFunc.java" />
         <option value="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/util/StringFuncUtil.java" />
-        <option value="$PROJECT_DIR$/04-spring-boot-druid/src/test/java/com/tgram/sboot/ApplicationTests.java" />
         <option value="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/func/LambdaFunc.java" />
         <option value="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/lambda/MyLambadFunc.java" />
         <option value="$PROJECT_DIR$/02-spring-boot-mybatis/pom.xml" />
@@ -229,6 +223,18 @@
         <option value="$PROJECT_DIR$/04-spring-boot-druid/src/test/java/com/tgram/sboot/DateTest.java" />
         <option value="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/DruidApplication.java" />
         <option value="$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/util/ScheduldUtil.java" />
+        <option value="$PROJECT_DIR$/04-spring-boot-druid/src/test/java/com/tgram/sboot/ApplicationTests.java" />
+        <option value="$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/java/com/tgram/sboot/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/java/com/tgram/sboot/eneity/User.java" />
+        <option value="$PROJECT_DIR$/05-spring-boot-mybatisplus/README.md" />
+        <option value="$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/java/com/tgram/sboot/service/impl/ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/java/com/tgram/sboot/service/UserService.java" />
+        <option value="$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/java/com/tgram/sboot/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/java/com/tgram/sboot/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/05-spring-boot-mybatisplus/pom.xml" />
+        <option value="$PROJECT_DIR$/05-spring-boot-mybatisplus/src/test/java/com/tgram/sboot/ApplicationTests.java" />
+        <option value="$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/java/com/tgram/sboot/util/ConvertSpellUtil.java" />
       </list>
     </option>
   </component>
@@ -240,17 +246,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="02-spring-boot-mybatis Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="02-spring-boot-mybatis Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -270,35 +266,36 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04-spring-boot-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="05-spring-boot-mybatisplus" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04-spring-boot-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="05-spring-boot-mybatisplus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04-spring-boot-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="05-spring-boot-mybatisplus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04-spring-boot-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="05-spring-boot-mybatisplus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04-spring-boot-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="05-spring-boot-mybatisplus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -306,7 +303,7 @@
             </path>
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04-spring-boot-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="05-spring-boot-mybatisplus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -315,20 +312,27 @@
             </path>
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04-spring-boot-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="05-spring-boot-mybatisplus" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="05-spring-boot-mybatisplus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04-spring-boot-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="05-spring-boot-mybatisplus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04-spring-boot-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="05-spring-boot-mybatisplus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -338,7 +342,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,13 +354,13 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-mybatis-generator/spring-boot-mybatis-1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -721,14 +724,25 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.13347022" />
+    <option name="contentProportion" value="0.21423683" />
   </component>
-  <component name="RunManager" selected="Spring Boot.DruidApplication">
+  <component name="RunManager" selected="Application.ConvertSpellUtil">
+    <configuration name="ConvertSpellUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tgram.sboot.util.ConvertSpellUtil" />
+      <module name="05-spring-boot-mybatisplus" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tgram.sboot.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="DateTest.testBetweenDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="04-spring-boot-druid" />
+    <configuration name="ApplicationTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05-spring-boot-mybatisplus" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tgram.sboot.*" />
@@ -738,8 +752,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.tgram.sboot" />
-      <option name="MAIN_CLASS_NAME" value="com.tgram.sboot.DateTest" />
-      <option name="METHOD_NAME" value="testBetweenDays" />
+      <option name="MAIN_CLASS_NAME" value="com.tgram.sboot.ApplicationTests" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -750,8 +764,8 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DateTest.testBetweenDays2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="04-spring-boot-druid" />
+    <configuration name="ApplicationTests.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05-spring-boot-mybatisplus" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tgram.sboot.*" />
@@ -761,8 +775,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.tgram.sboot" />
-      <option name="MAIN_CLASS_NAME" value="com.tgram.sboot.DateTest" />
-      <option name="METHOD_NAME" value="testBetweenDays2" />
+      <option name="MAIN_CLASS_NAME" value="com.tgram.sboot.ApplicationTests" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -773,19 +787,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ThreadTest.testThread1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="02-spring-boot-mybatis" />
+    <configuration name="ApplicationTests.testIsNum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05-spring-boot-mybatisplus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tgram.sboot.test.*" />
+          <option name="PATTERN" value="com.tgram.sboot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.tgram.sboot.test" />
-      <option name="MAIN_CLASS_NAME" value="com.tgram.sboot.test.ThreadTest" />
-      <option name="METHOD_NAME" value="testThread1" />
+      <option name="PACKAGE_NAME" value="com.tgram.sboot" />
+      <option name="MAIN_CLASS_NAME" value="com.tgram.sboot.ApplicationTests" />
+      <option name="METHOD_NAME" value="testIsNum" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -796,19 +810,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ThreadTest.testThread2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="02-spring-boot-mybatis" />
+    <configuration name="ApplicationTests.testIsNum2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05-spring-boot-mybatisplus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tgram.sboot.test.*" />
+          <option name="PATTERN" value="com.tgram.sboot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.tgram.sboot.test" />
-      <option name="MAIN_CLASS_NAME" value="com.tgram.sboot.test.ThreadTest" />
-      <option name="METHOD_NAME" value="testThread2" />
+      <option name="PACKAGE_NAME" value="com.tgram.sboot" />
+      <option name="MAIN_CLASS_NAME" value="com.tgram.sboot.ApplicationTests" />
+      <option name="METHOD_NAME" value="testIsNum2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -839,22 +853,14 @@
       <module name="04-spring-boot-druid" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tgram.sboot.DruidApplication" />
     </configuration>
+    <configuration name="MyBatisPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="05-spring-boot-mybatisplus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tgram.sboot.MyBatisPlusApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
     <configuration name="SpringBootJspApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="01-spring-boot-jsp" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tgram.sboot.SpringBootJspApplication" />
-    </configuration>
-    <configuration name="SpringBootMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="02-spring-boot-mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tgram.sboot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tgram.sboot.SpringBootMybatisApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
     </configuration>
     <configuration name="SpringBootRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="03-spring-boot-redis" />
@@ -886,19 +892,20 @@
       <item itemvalue="Spring Boot.DruidApplication" />
       <item itemvalue="Spring Boot.SpringBootJspApplication" />
       <item itemvalue="Spring Boot.SpringBootRedisApplication" />
-      <item itemvalue="Spring Boot.SpringBootMybatisApplication" />
-      <item itemvalue="JUnit.ThreadTest.testThread1" />
-      <item itemvalue="JUnit.ThreadTest.testThread2" />
-      <item itemvalue="JUnit.DateTest.testBetweenDays" />
-      <item itemvalue="JUnit.DateTest.testBetweenDays2" />
+      <item itemvalue="Spring Boot.MyBatisPlusApplication" />
+      <item itemvalue="JUnit.ApplicationTests.test1" />
+      <item itemvalue="JUnit.ApplicationTests.test2" />
+      <item itemvalue="JUnit.ApplicationTests.testIsNum" />
+      <item itemvalue="JUnit.ApplicationTests.testIsNum2" />
+      <item itemvalue="Application.ConvertSpellUtil" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DateTest.testBetweenDays2" />
-        <item itemvalue="JUnit.DateTest.testBetweenDays" />
-        <item itemvalue="JUnit.ThreadTest.testThread2" />
-        <item itemvalue="JUnit.ThreadTest.testThread1" />
-        <item itemvalue="Spring Boot.SpringBootMybatisApplication" />
+        <item itemvalue="Application.ConvertSpellUtil" />
+        <item itemvalue="JUnit.ApplicationTests.testIsNum2" />
+        <item itemvalue="JUnit.ApplicationTests.testIsNum" />
+        <item itemvalue="JUnit.ApplicationTests.test2" />
+        <item itemvalue="JUnit.ApplicationTests.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -933,7 +940,17 @@
       <workItem from="1545720060453" duration="5512000" />
       <workItem from="1545789234922" duration="20329000" />
       <workItem from="1545880768388" duration="13166000" />
-      <workItem from="1545965668782" duration="152000" />
+      <workItem from="1545965668782" duration="357000" />
+      <workItem from="1545984451311" duration="421000" />
+      <workItem from="1545984897289" duration="599000" />
+      <workItem from="1546051790364" duration="2650000" />
+      <workItem from="1546073121557" duration="170000" />
+      <workItem from="1546410643325" duration="1764000" />
+      <workItem from="1546484300283" duration="2709000" />
+      <workItem from="1547013599148" duration="3549000" />
+      <workItem from="1547108918395" duration="1188000" />
+      <workItem from="1547430563383" duration="2620000" />
+      <workItem from="1547520393966" duration="4236000" />
     </task>
     <task id="LOCAL-00001" summary="修改自述文件">
       <created>1541592685209</created>
@@ -1152,43 +1169,85 @@
       <option name="project" value="LOCAL" />
       <updated>1545902181710</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="spring定时任务注解:&#10;    1.类上添加@EnableSchedulding注解&#10;    2.此类必须被Spring的IOC容器所管理&#10;    3.在定时指定的方法上添加@Schedule通过corn表达式指定定时时间">
+      <created>1545965997159</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1545965997159</updated>
+    </task>
+    <task id="LOCAL-00033" summary="测试集合工具类：判断List集合是否为空">
+      <created>1546055971439</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1546055971439</updated>
+    </task>
+    <task id="LOCAL-00034" summary="SpringBoot集成MyBatis-Plus">
+      <created>1547019590529</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1547019590529</updated>
+    </task>
+    <task id="LOCAL-00035" summary="SpringBoot集成MyBatis-Plus">
+      <created>1547108961092</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1547108961092</updated>
+    </task>
+    <task id="LOCAL-00036" summary="。。">
+      <created>1547120027261</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1547120027261</updated>
+    </task>
+    <task id="LOCAL-00037" summary="字符串转成拼音">
+      <created>1547524026264</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1547524026264</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DateTest_testBetweenDays2 - 2018.12.27 at 17h 07m 52s.xml">
-      <configuration name="DateTest.testBetweenDays2" configurationId="JUnit" />
+    <history-entry file="ApplicationTests_testIsNum2 - 2019.01.14 at 18h 19m 31s.xml">
+      <configuration name="ApplicationTests.testIsNum2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DateTest_testBetweenDays2 - 2018.12.27 at 17h 08m 24s.xml">
-      <configuration name="DateTest.testBetweenDays2" configurationId="JUnit" />
+    <history-entry file="ApplicationTests_testIsNum2 - 2019.01.14 at 18h 19m 41s.xml">
+      <configuration name="ApplicationTests.testIsNum2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DateTest_testBetweenDays2 - 2018.12.27 at 17h 08m 34s.xml">
-      <configuration name="DateTest.testBetweenDays2" configurationId="JUnit" />
+    <history-entry file="ApplicationTests_testIsNum2 - 2019.01.14 at 18h 20m 17s.xml">
+      <configuration name="ApplicationTests.testIsNum2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DateTest_testBetweenDays - 2018.12.27 at 17h 09m 12s.xml">
-      <configuration name="DateTest.testBetweenDays" configurationId="JUnit" />
+    <history-entry file="ApplicationTests_testIsNum2 - 2019.01.14 at 18h 20m 53s.xml">
+      <configuration name="ApplicationTests.testIsNum2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DateTest_testBetweenDays - 2018.12.27 at 17h 10m 06s.xml">
-      <configuration name="DateTest.testBetweenDays" configurationId="JUnit" />
+    <history-entry file="ApplicationTests_testIsNum2 - 2019.01.14 at 18h 21m 03s.xml">
+      <configuration name="ApplicationTests.testIsNum2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DateTest_testBetweenDays2 - 2018.12.27 at 17h 10m 12s.xml">
-      <configuration name="DateTest.testBetweenDays2" configurationId="JUnit" />
+    <history-entry file="ApplicationTests_testIsNum2 - 2019.01.14 at 18h 21m 49s.xml">
+      <configuration name="ApplicationTests.testIsNum2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DateTest_testBetweenDays - 2018.12.27 at 17h 15m 19s.xml">
-      <configuration name="DateTest.testBetweenDays" configurationId="JUnit" />
+    <history-entry file="ApplicationTests_testIsNum2 - 2019.01.14 at 18h 21m 58s.xml">
+      <configuration name="ApplicationTests.testIsNum2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DateTest_testBetweenDays - 2018.12.27 at 17h 15m 32s.xml">
-      <configuration name="DateTest.testBetweenDays" configurationId="JUnit" />
+    <history-entry file="ApplicationTests_testIsNum2 - 2019.01.14 at 18h 22m 16s.xml">
+      <configuration name="ApplicationTests.testIsNum2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DateTest_testBetweenDays - 2018.12.27 at 17h 15m 50s.xml">
-      <configuration name="DateTest.testBetweenDays" configurationId="JUnit" />
+    <history-entry file="ApplicationTests_testIsNum2 - 2019.01.14 at 18h 22m 25s.xml">
+      <configuration name="ApplicationTests.testIsNum2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DateTest_testBetweenDays2 - 2018.12.27 at 17h 15m 55s.xml">
-      <configuration name="DateTest.testBetweenDays2" configurationId="JUnit" />
+    <history-entry file="ApplicationTests_testIsNum2 - 2019.01.14 at 18h 22m 36s.xml">
+      <configuration name="ApplicationTests.testIsNum2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85250000" />
+    <option name="totallyTimeSpent" value="105361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -1197,31 +1256,31 @@
       <window_info anchor="right" id="Palette" order="8" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="10" sideWeight="0.49865952" weight="0.33614627" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5020107" side_tool="true" weight="0.36427566" />
-      <window_info anchor="right" id="Maven Projects" order="0" weight="0.20308311" />
+      <window_info anchor="right" id="Maven Projects" order="0" sideWeight="0.49584487" weight="0.20643431" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="0" />
       <window_info anchor="right" id="Database" order="3" weight="0.18230563" />
-      <window_info anchor="right" id="Structure" order="2" side_tool="true" weight="0.12801608" />
+      <window_info anchor="right" id="Structure" order="2" sideWeight="0.5041551" side_tool="true" weight="0.20643431" />
       <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="13" sideWeight="0.49798927" weight="0.40646976" />
+      <window_info anchor="bottom" id="Debug" order="13" sideWeight="0.49798927" weight="0.34317863" />
       <window_info anchor="bottom" id="TODO" order="16" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32911393" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.49731904" visible="true" weight="0.45428973" />
-      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.49865952" weight="0.3305204" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.49731904" weight="0.40787622" />
+      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.49865952" weight="0.27144867" />
       <window_info anchor="bottom" id="Run" order="1" weight="0.39662448" />
       <window_info anchor="bottom" id="Spring" order="5" weight="0.22081575" />
       <window_info anchor="bottom" id="Terminal" order="6" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19839142" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49861497" visible="true" weight="0.20844504" />
       <window_info anchor="right" id="Bean Validation" order="7" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.50138503" side_tool="true" weight="0.20308311" />
       <window_info anchor="bottom" id="REST Client" order="2" sideWeight="0.49932975" weight="0.33333334" />
       <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
@@ -1267,7 +1326,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改自述文件" />
     <MESSAGE value="添加SpringBoot整合MyBatis模块" />
     <MESSAGE value="SpringBoot整合MyBatis模块-查询" />
     <MESSAGE value="添加SpringBoot整合Redis模块" />
@@ -1288,158 +1346,28 @@
     <MESSAGE value="Java到处Excel" />
     <MESSAGE value="Java使用Callback与FutureTask实现多线程" />
     <MESSAGE value="Java计算两个日期相差的天数" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java计算两个日期相差的天数" />
+    <MESSAGE value="spring定时任务注解:&#10;    1.类上添加@EnableSchedulding注解&#10;    2.此类必须被Spring的IOC容器所管理&#10;    3.在定时指定的方法上添加@Schedule通过corn表达式指定定时时间" />
+    <MESSAGE value="测试集合工具类：判断List集合是否为空" />
+    <MESSAGE value="SpringBoot集成MyBatis-Plus" />
+    <MESSAGE value="。。" />
+    <MESSAGE value="字符串转成拼音" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符串转成拼音" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>t2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/core/SpringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/344ee7b2-4273-4c99-b506-874c0145296d/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="83" column="63" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/test/java/com/tgram/sboot/DataSourceTest.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.2.RELEASE/spring-web-5.1.2.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="223" selection-start-line="223" selection-end-line="223" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/service/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/dao/EmployeeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/resources/mapper/EmployeeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="68" lean-forward="true" selection-start-column="68" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE.jar!/org/springframework/data/redis/serializer/RedisSerializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/controller/RedisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="122">
-            <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/SpringBootRedisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://344ee7b2-4273-4c99-b506-874c0145296d/schema/mydatabase/table/employee">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/controller/RestFullController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2156">
-          <caret line="111" column="35" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/service/impl/EmployeeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/test/java/com/tgram/sboot/SpringBootRedisTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/test/java/com/tgram/sboot/DemoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar!/com/fasterxml/jackson/annotation/JsonInclude.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="49" column="35" lean-forward="true" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/core/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-spring-boot-redis/src/main/java/com/tgram/sboot/entity/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1515,18 +1443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -1614,48 +1530,204 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/test/java/com/tgram/sboot/ApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/util/ScheduldUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5588">
-          <caret line="282" column="28" selection-start-line="282" selection-start-column="28" selection-end-line="282" selection-end-column="28" />
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar!/java/util/AbstractMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/collections/FXCollections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="2673" column="17" lean-forward="true" selection-start-line="2673" selection-start-column="17" selection-end-line="2673" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar!/sun/nio/ch/Util.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="160" column="12" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.3.RELEASE/spring-core-5.1.3.RELEASE-sources.jar!/org/springframework/util/CollectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="60" column="45" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring-mybatis-generator/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-spring-boot-jsp/src/main/java/com/tgram/sboot/controller/JspController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/util/MyDateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2288">
-          <caret line="111" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1914">
+          <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/test/java/com/tgram/sboot/DateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        <state relative-caret-position="310">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/test/java/com/tgram/sboot/ApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4796">
+          <caret line="292" column="32" selection-start-line="292" selection-start-column="32" selection-end-line="292" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/DruidApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/java/com/tgram/sboot/eneity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/DruidApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+    <entry file="file://$PROJECT_DIR$/05-spring-boot-mybatisplus/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="100" selection-start-line="1" selection-start-column="100" selection-end-line="1" selection-end-column="100" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-spring-boot-druid/src/main/java/com/tgram/sboot/util/ScheduldUtil.java">
+    <entry file="file://$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/java/com/tgram/sboot/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        <state relative-caret-position="201">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/java/com/tgram/sboot/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.7.1/mybatis-plus-core-3.0.7.1.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/java/com/tgram/sboot/MyBatisPlusApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/java/com/tgram/sboot/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/java/com/tgram/sboot/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/regex/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="1026" column="26" selection-start-line="1026" selection-start-column="26" selection-end-line="1026" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-spring-boot-mybatisplus/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-spring-boot-mybatisplus/src/test/java/com/tgram/sboot/ApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="83" column="1" lean-forward="true" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-spring-boot-mybatisplus/src/main/java/com/tgram/sboot/util/ConvertSpellUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4422">
+          <caret line="201" column="18" selection-start-line="201" selection-start-column="18" selection-end-line="201" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#694#702#0" expanded="true" />
+            <element signature="e#926#934#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1714,7 +1786,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>02-spring-boot-mybatis</last-edited>
+          <last-edited>05-spring-boot-mybatisplus</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

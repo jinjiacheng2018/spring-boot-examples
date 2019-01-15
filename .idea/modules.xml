@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/02-spring-boot-mybatis/02-spring-boot-mybatis.iml" filepath="$PROJECT_DIR$/02-spring-boot-mybatis/02-spring-boot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-spring-boot-redis/03-spring-boot-redis.iml" filepath="$PROJECT_DIR$/03-spring-boot-redis/03-spring-boot-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-spring-boot-druid/04-spring-boot-druid.iml" filepath="$PROJECT_DIR$/04-spring-boot-druid/04-spring-boot-druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-spring-boot-mybatisplus/05-spring-boot-mybatisplus.iml" filepath="$PROJECT_DIR$/05-spring-boot-mybatisplus/05-spring-boot-mybatisplus.iml" />
     </modules>
   </component>
 </project>
