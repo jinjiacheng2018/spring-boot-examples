@@ -9,7 +9,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
+import java.util.regex.Pattern;
 
 //@RunWith(SpringRunner.class)
 @SpringBootTest
@@ -55,4 +58,27 @@ public class ApplicationTests
         // s1 = s1 + 1; //报错，类型转换有问题
         s1 += 1; //等价于：s1 = (short)(s1 + 1);所以不报错
     }
+
+    /**
+     * 判断字符串是否是数字
+     */
+    @Test
+    public void testIsNum(){
+        String str = "123244你好3";
+        Pattern pattern = Pattern.compile("[0-9]+$");
+        boolean matches = pattern.matcher(str).matches();
+        System.out.println(str + "字符串是否纯数字：" + (matches ? "✔" : "✖"));
+    }
+
+    /**
+     * 判断字符串是否是数字
+     */
+    @Test
+    public void testIsNum2(){
+        String str = "15312345678";
+        Pattern pattern = Pattern.compile("([1][3][5]|[1][5][3])[0-9]{8}");
+        boolean matches = pattern.matcher(str).matches();
+        System.out.println(str + "电话号码是否合法：" + (matches ? "✔" : "✖"));
+    }
+
 }
