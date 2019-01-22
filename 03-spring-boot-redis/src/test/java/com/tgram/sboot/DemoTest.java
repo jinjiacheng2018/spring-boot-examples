@@ -1,7 +1,10 @@
 package com.tgram.sboot;
 
+import com.tgram.sboot.dao.EmployeeDao;
+import org.apache.ibatis.annotations.Mapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.junit4.SpringRunner;
 
 /**
@@ -14,6 +17,9 @@ import org.springframework.test.context.junit4.SpringRunner;
  */
 @RunWith(SpringRunner.class)
 public class DemoTest {
+
+    @Autowired
+    private EmployeeDao employeeDao;
 
     @Test
     public void test_01(){
@@ -33,5 +39,11 @@ public class DemoTest {
         for (String s : split) {
             System.err.print(s + " ");
         }
+    }
+
+    @Test
+    public void testDataSource()
+    {
+        System.out.println(employeeDao);
     }
 }
