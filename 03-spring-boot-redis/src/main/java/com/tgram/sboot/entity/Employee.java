@@ -1,5 +1,6 @@
 package com.tgram.sboot.entity;
 
+import com.tgram.sboot.core.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -17,7 +18,7 @@ import java.io.Serializable;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Employee implements Serializable {
+public class Employee extends Entity implements Serializable {
 
     private static final long serialVersionUID = -8808546155385651919L;
 
