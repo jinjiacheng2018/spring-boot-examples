@@ -11,6 +11,7 @@
         <module name="03-spring-boot-redis" />
         <module name="04-spring-boot-druid" />
         <module name="05-spring-boot-mybatisplus" />
+        <module name="06-spring-boot-rabbitmq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="03-spring-boot-redis" target="1.8" />
       <module name="04-spring-boot-druid" target="1.8" />
       <module name="05-spring-boot-mybatisplus" target="1.8" />
+      <module name="06-spring-boot-rabbitmq" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
