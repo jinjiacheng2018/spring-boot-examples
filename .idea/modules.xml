@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/01-spring-boot-jsp/01-spring-boot-jsp.iml" filepath="$PROJECT_DIR$/01-spring-boot-jsp/01-spring-boot-jsp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/02-spring-boot-mybatis/02-spring-boot-mybatis.iml" filepath="$PROJECT_DIR$/02-spring-boot-mybatis/02-spring-boot-mybatis.iml" />
-    </modules>
-  </component>
-</project>
