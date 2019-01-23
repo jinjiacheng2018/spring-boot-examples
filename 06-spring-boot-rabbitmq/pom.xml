@@ -6,8 +6,9 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.2.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
+
     <groupId>com.tgram.sboot</groupId>
     <artifactId>06-spring-boot-rabbitmq</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -19,15 +20,19 @@
     </properties>
 
     <dependencies>
+        <!-- spring-boot-starter-amqp：RabbitMQ的起步依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
+
+        <!-- spring-boot-starter-web：SpringMVC的起步依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!-- spring-boot-starter-test：SpringBoot的测试起步依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

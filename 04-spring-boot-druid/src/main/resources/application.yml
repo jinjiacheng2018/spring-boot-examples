@@ -1,6 +1,6 @@
 # 配置程序相关的设置
 server:
-  port: 8888
+  port: 8091
   servlet:
     context-path: /spring-boot-druuid
 # 配置数据库的连接
