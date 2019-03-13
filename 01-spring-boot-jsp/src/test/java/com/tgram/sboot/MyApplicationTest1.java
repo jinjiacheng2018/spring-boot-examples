@@ -1,19 +1,19 @@
 package com.tgram.sboot;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import org.junit.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
 //@RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
 public class MyApplicationTest1 {
 
-    // 测试Java8的Stream流的使用
+    /**
+     * 测试Java8的Stream流的使用
+     */
     @Test
     public void test1()
     {
@@ -33,5 +33,28 @@ public class MyApplicationTest1 {
         // map
         List<Integer> nums4 = nums.stream().map(n -> n * n).collect(Collectors.toList());
         nums4.forEach(n -> System.out.print(n + " "));
+    }
+
+    /**
+     * 测试2
+     */
+    @Test
+    public void test2()
+    {
+        Integer a = 1;
+        Integer b = 2;
+        Integer c = 3;
+        Integer d = 3;
+        Integer e = 321;
+        Integer f = 321;
+        Long g = 3L;
+        int i=3;
+
+        System.out.println(c == d);
+        System.out.println(e == f);
+        System.out.println(c == (a + b));
+        System.out.println(c.equals(a + b));
+        System.out.println(g == (a + b));   //==在比较基本数据类型时只比较内容，对象会比较地址
+        System.out.println(g == i);
     }
 }
