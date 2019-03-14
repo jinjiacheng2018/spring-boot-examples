@@ -1,6 +1,5 @@
 package com.tgram.sboot.controller;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,11 +13,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
  *@Version 1.0 2018/11/7 19:37
  */
 @Controller
-public class JspController {
-
+public class JspController
+{
+    
     @RequestMapping(value = "/success")
-    public String index(Model model){
-        model.addAttribute("msg","Hello,SpringBoot-JSP");
+    public String index(Model model)
+    {
+        model.addAttribute("msg", "Hello,SpringBoot-JSP");
         return "success";
     }
 }

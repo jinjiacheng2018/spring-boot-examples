@@ -1,9 +1,14 @@
 package com.tgram.sboot;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import com.tgram.sboot.model.Employee;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -94,20 +99,106 @@ public class MyApplicationTest1
         list.forEach(num -> System.out.print(num + " "));
         
         /*
-        // Java8的forEach循环
-        publistBeans.forEach(bean -> {
-            bean.setImgList(
-                    imageMapper.selectImageByTypeIdAndType(bean.getPublishId(), TypeUtils.PUBLISH_BANNER_IMAGE));
-        });
+         * // Java8的forEach循环
+         * publistBeans.forEach(bean -> {
+         * bean.setImgList(
+         * imageMapper.selectImageByTypeIdAndType(bean.getPublishId(),
+         * TypeUtils.PUBLISH_BANNER_IMAGE));
+         * });
+         * // 转换后的for循环
+         * for (int i = 0; i < publistBeans.size(); i++) {
+         * // 设置图片集合
+         * publistBeans.get(i).setImageList(
+         * // 获取publisId查询图片集合
+         * imageMapper.selectImageByTypeIdAndType(publistBeans.get(i).
+         * getPublishId(), TypeUtils.PUBLISH_BANNER_IMAGE))
+         * );
+         * }
+         */
+    }
+    
+    /**
+     * Test5
+     */
+    @Test
+    public void test5()
+    {
+        List<Integer> numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5);
+        numbers.forEach(num -> System.out.print(num + " "));
+        
+        // 获取对应的平方数
+        List<Integer> squaresList = numbers.stream().map(i -> i * i).distinct().collect(Collectors.toList());
+        squaresList.forEach(seq -> System.err.print(seq + " "));
+    }
+    
+    /**
+     * Test6
+     */
+    @Test
+    public void test6()
+    {
+        List<String> strings = Arrays.asList("abc", "", "bc", "efg", "abcd", "", "jkl");
+        
+        // 获取空字符串的数量
+        long count = strings.stream().filter(string -> string.isEmpty()).count();
+        System.out.println("空字符串的数量：" + count);
+    }
+    
+    /**
+     * Test7
+     */
+    @Test
+    public void test7()
+    {
+        Runnable runnable = new Runnable()
+        {
+            @Override
+            public void run()
+            {
+                System.out.println("HelloWorld");
+            }
+        };
+        
+        Thread thread = new Thread(runnable);
+        thread.start();
+    }
+    
+    /**
+     * Test8
+     */
+    @Test
+    public void test8()
+    {
+        // 使用Lambda表达式
+        Runnable runnable = () -> {
+            System.out.println("Hello,World!!!");
+        };
+        
+        Thread thread = new Thread(runnable);
+        thread.start();
+    }
+    
+    /**
+     * Test9
+     * Java8新增的日期API对象
+     */
+    @Test
+    public void test9()
+    {
+        LocalDate localDate = LocalDate.now();
+        LocalTime localTime = LocalTime.now();
+        LocalDateTime localDateTime = LocalDateTime.now();
+        
+        System.out.println(localDate);
+        System.out.println(localTime);
+        System.out.println(localDateTime);
+        
+        LocalDate localDate1 = LocalDate.of(2016, 10, 26);
+        LocalTime localTime1 = LocalTime.of(02, 22, 56);
+        LocalDateTime localDateTime1 = LocalDateTime.of(2016, 10, 26, 12, 10, 55);
 
-        // 转换后的for循环
-        for (int i = 0; i < publistBeans.size(); i++) {
-            // 设置图片集合
-            publistBeans.get(i).setImageList(
-                    // 获取publisId查询图片集合
-                    imageMapper.selectImageByTypeIdAndType(publistBeans.get(i).getPublishId(), TypeUtils.PUBLISH_BANNER_IMAGE))
-            );
-        }
-        */
+        System.err.println(localDate1);
+        System.err.println(localTime1);
+        System.err.println(localDateTime1);
     }
 }
